@@ -21,6 +21,7 @@
 		<None Include="CompilerFeatureRequiredAttribute.cs" />
 		<None Include="IsExternalInit.cs" />
 		<None Include="RequiredMemberAttribute.cs" />
+		<None Include="SetsRequiredMembersAttribute.cs" />
 	</ItemGroup>
 
 </Project>
