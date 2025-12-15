@@ -1,4 +1,4 @@
-# OliveStudio.MissingAttributes
+# OliveGameStudio.MissingAttributes
 
 A C# library providing compiler polyfills for modern language features in .NET Framework and .NET Standard. This library enables you to use the latest C# language features like records, init properties, and required members in projects targeting older frameworks.
 
@@ -6,10 +6,10 @@ A C# library providing compiler polyfills for modern language features in .NET F
 
 ```bash
 # Package manager
-Install-Package OliveStudio.MissingAttributes
+Install-Package OliveGameStudio.MissingAttributes
 
 # .NET CLI
-dotnet add package OliveStudio.MissingAttributes
+dotnet add package OliveGameStudio.MissingAttributes
 ```
 
 ## What are Compiler Polyfills?

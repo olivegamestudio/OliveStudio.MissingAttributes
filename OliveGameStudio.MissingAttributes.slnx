@@ -3,5 +3,5 @@
     <File Path=".github/workflows/dotnet.yml" />
     <File Path="README.md" />
   </Folder>
-  <Project Path="OliveStudio.MissingAttributes/OliveStudio.MissingAttributes.csproj" />
+  <Project Path="OliveStudio.MissingAttributes/OliveGameStudio.MissingAttributes.csproj" />
 </Solution>
