@@ -24,11 +24,11 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
-		<None Include="CompilerFeatureRequiredAttribute.cs" />
-		<None Include="CallerArgumentExpressionAttribute.cs" />
-		<None Include="IsExternalInit.cs" />
-		<None Include="RequiredMemberAttribute.cs" />
-		<None Include="SetsRequiredMembersAttribute.cs" />
+		<Compile Remove="CompilerFeatureRequiredAttribute.cs" />
+		<Compile Remove="CallerArgumentExpressionAttribute.cs" />
+		<Compile Remove="IsExternalInit.cs" />
+		<Compile Remove="RequiredMemberAttribute.cs" />
+		<Compile Remove="SetsRequiredMembersAttribute.cs" />
 	</ItemGroup>
 
     <ItemGroup>
