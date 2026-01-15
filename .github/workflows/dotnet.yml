@@ -12,7 +12,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+      
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,6 +37,7 @@ jobs:
 
       - name: Bump & push tag
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        id: tag_version
         uses: mathieudutour/github-tag-action@v6.2
         with:
             github_token: ${{ github.token }}
@@ -55,4 +58,12 @@ jobs:
             dotnet nuget push "**/*.nupkg" --api-key "$NUGET" --source "https://api.nuget.org/v3/index.json" --skip-duplicate --no-symbols
         env:
             NUGET: ${{ secrets.NUGET }}
-            
+
+      - name: Create Release
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ steps.tag_version.outputs.new_tag }}
+          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          body: ${{ steps.tag_version.outputs.changelog }}
+          
