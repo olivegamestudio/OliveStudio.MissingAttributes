@@ -2,6 +2,11 @@
 
 A C# library providing compiler polyfills for modern language features in .NET Framework and .NET Standard. This library enables you to use the latest C# language features like records, init properties, and required members in projects targeting older frameworks.
 
+[![NuGet](https://img.shields.io/nuget/v/OliveGameStudio.MissingAttributes.svg)](https://www.nuget.org/packages/OliveGameStudio.MissingAttributes)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/OliveGameStudio.MissingAttributes.svg)](https://www.nuget.org/packages/OliveGameStudio.MissingAttributes)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Build](https://github.com/YOUR_USERNAME/OliveGameStudio.MissingAttributes/actions/workflows/build.yml/badge.svg)](https://github.com/YOUR_USERNAME/OliveGameStudio.MissingAttributes/actions)
+
 ## Installation
 
 ```bash
