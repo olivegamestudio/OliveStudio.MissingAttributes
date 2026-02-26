@@ -5,7 +5,6 @@ A C# library providing compiler polyfills for modern language features in .NET F
 [![NuGet](https://img.shields.io/nuget/v/OliveGameStudio.MissingAttributes.svg)](https://www.nuget.org/packages/OliveGameStudio.MissingAttributes)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/OliveGameStudio.MissingAttributes.svg)](https://www.nuget.org/packages/OliveGameStudio.MissingAttributes)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build](https://github.com/YOUR_USERNAME/OliveGameStudio.MissingAttributes/actions/workflows/build.yml/badge.svg)](https://github.com/YOUR_USERNAME/OliveGameStudio.MissingAttributes/actions)
 
 ## Installation
 
